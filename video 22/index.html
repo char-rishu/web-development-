@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+        }
+       html{
+        font-size: 12px;
+       }
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            margin: auto;
+            height: 10vh;
+            background-color: rgb(36, 36, 95);
+
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            margin: 23px auto;
+            /*  height: 80vh; */
+            min-height: 80vh;
+            font-size: 18px;
+            background-color: rgb(36, 36, 95);
+        }
+        .container > div{
+            font-size: 2em;
+            border: 2px solid red;
+            width: 50%;
+        }
+        .container > div > div{
+            border: 2px solid blue;
+            width: 50%;
+            
+        }
+
+        .mycount {
+            box-sizing: border-box;
+            border: 2px solid black;
+           font-size: 22px;
+            margin: 23px auto;
+            height: 80vh;
+            color: rgb(0, 0, 0);
+            /* width: 100vmin;  */
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is a BOx
+    </div>
+
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi reiciendis obcaecati incidunt corporis magnam
+            sit
+            mollitia rerum doloremque earum magni itaque qui iure blanditiis dolorem velit perspiciatis aut veniam
+            nihil,
+            vero vitae cupiditate, eveniet alias soluta. Ex blanditiis eius natus cum eligendi odit modi quia, iusto
+            laboriosam dolore praesentium incidunt distinctio consequuntur soluta quisquam assumenda sed!
+           
+            <div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore eum eius porro aut saepe
+                suscipit itaque placeat ipsam praesentium. Temporibus amet laborum tempore architecto.
+            </div>
+
+        </div>
+        <!-- Expand this to see that this container will adjust its height lorem999-->
+        </div>
+
+    <div class="mycount">
+        I am another container --
+    </div>
+</body>
+
+</html>
